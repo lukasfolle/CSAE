@@ -3,6 +3,8 @@ Implementation of the CSAE model for the corresponding publication xyz.
 
 ![badge](https://github.com/lukasfolle/CSAE/actions/workflows/python-package.yml/badge.svg)
 
+
+
 ## Example usage
 
 ```
@@ -23,3 +25,7 @@ print(x.shape)
 print(x_hat.shape)
 # >> torch.Size([1, 1, 256, 256, 32])
 ```
+
+## 2D/3D Input dimensionality
+- To use the network for images (2D) change `DIMENSION` in model.py:19 to `DIMENSION = 2`
+- To use the network for volumes (3D) change (keep) `DIMENSION` in model.py:19 to `DIMENSION = 3`
