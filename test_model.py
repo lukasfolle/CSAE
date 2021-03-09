@@ -5,6 +5,7 @@ import torch
 
 from model import CSAE
 
+
 class TestCSAE(TestCase):
     def setUp(self) -> None:
         self.model = CSAE(num_classes=3, input_dim=(256, 256, 32))
