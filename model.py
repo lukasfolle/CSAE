@@ -1,6 +1,7 @@
 import torch
 import torch.nn.functional as F
 from torch import nn
+import numpy as np
 
 
 class Interpolate(nn.Module):
@@ -84,7 +85,7 @@ class DecoderBlock(nn.Module):
         return x_hat
 
 
-class CAE(nn.Module):
+class CSAE(nn.Module):
     def __init__(self, num_features=None, downsample_factor=2, num_classes=None, input_dim=None, drop_rate=0.0,
                  output_channels=None):
         super().__init__()
