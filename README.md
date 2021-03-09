@@ -1,6 +1,8 @@
 # CSAE
 Implementation of the CSAE model for the corresponding publication xyz.
 
+![badge](https://github.com/lukasfolle/CSAE/actions/workflows/python-package.yml/badge.svg)
+
 ## Example usage
 
 ```
