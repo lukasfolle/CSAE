@@ -3,7 +3,10 @@ Implementation of the CSAE model for the corresponding publication xyz.
 
 ![badge](https://github.com/lukasfolle/CSAE/actions/workflows/python-package.yml/badge.svg)
 
-
+## Get started
+1.  `pip install -r requirements.txt`
+2.  `git clone https://github.com/lukasfolle/CSAE.git && cd CSAE`
+3.  Start using the code with an example below!
 
 ## Example usage
 
